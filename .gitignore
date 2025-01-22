@@ -1,0 +1,12 @@
+*.egg-info
+__pycache__
+dist/
+*.pyc
+.venv/
+.ruff_cache/
+.coverage
+coverage.xml
+.pytest_cache/
+.env
+.ruff.toml
+.python-version
