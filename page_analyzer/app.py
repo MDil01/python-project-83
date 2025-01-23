@@ -1,14 +1,25 @@
 import os
 
 from dotenv import load_dotenv
-from flask import Flask
+from flask import Flask, render_template
 
 load_dotenv()
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 
 
-@app.route("/")
+@app.route('/')
 def index_get():
-    return "Welcome!"
+    return render_template(
+        'index.html',
+    )
 
+
+@app.post('/urls')
+def index_post():
+    pass
+
+
+@app.route('/urls')
+def urls():
+    pass
