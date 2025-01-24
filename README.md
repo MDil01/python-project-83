@@ -9,7 +9,7 @@ The "Page_analyzer" application analyzes web pages for their SEO suitability sim
 - Poetry version 1.8.3 or higher (optional)
  
 ### Download
-    git clone https://github.com/kazanmarat/python-project-83.git
+    git clone https://github.com/MDil01/python-project-83.git
 ### Set configuration
 In the project directory, rename the `.env_example` file to `.env`. Then enter your data for the following variables:
 - SECRET_KEY: secret key for the application.
